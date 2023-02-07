@@ -14,7 +14,7 @@ export default function TextForm(props) {
     const handelOnChange = (event)=>{
         setText(event.target.value)
     }
-    const [text, setText] = useState("Enter Your Text Here");
+    const [text, setText] = useState("");
 
     return(
         <>
